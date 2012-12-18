@@ -11,9 +11,12 @@ Features:
 6. Round implementation
 7. Betting structure to the extent of token based blind progression
 8. Metrics around card and hand frequencies (see sample data below)
+9. Functioning game implementation
 
 TODO:
 1. Implement AI for several types of player
+2. User controls for a playable experience
+3. LAN capabilities
 
 Usage:
 1. Game.java drives the main application over 100 rounds (set in main method)
