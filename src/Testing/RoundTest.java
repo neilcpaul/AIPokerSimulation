@@ -1,8 +1,8 @@
 package Testing;
 
-import Game;
-import Core.Game.GameState;
-import Core.Game.Round;
+import Core.Game;
+import Core.BaseLogic.GameState;
+import Core.BaseLogic.Round;
 import Enums.HandRank;
 import Utils.MapUtil;
 
@@ -25,7 +25,7 @@ public class RoundTest {
 
     public static void gameFrequencyTest(int roundsToPlay)
     {
-        Game.initGame();
+        //new Game.initGame();
         GameState gs = new GameState();
 
         long cumulativeRoundTime = 0;

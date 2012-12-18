@@ -2,9 +2,9 @@ package Factories;
 
 import Enums.Cards;
 import Enums.Suit;
-import Core.Card;
+import Core.CardImp.Card;
 import Enums.HandRank;
-import Core.Game.HandScore;
+import Core.BaseLogic.HandScore;
 
 import java.util.*;
 

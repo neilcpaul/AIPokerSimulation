@@ -1,5 +1,7 @@
-import Core.Game.GameState;
-import Core.Game.Round;
+package Core;
+
+import Core.BaseLogic.GameState;
+import Core.BaseLogic.Round;
 import Core.Player.*;
 import Core.Player.Types.CollusionPlayer;
 import Core.Player.Types.EmotionPlayer;
@@ -20,7 +22,7 @@ import java.util.*;
 public class Game {
     private static ArrayList<Player> players;
     private static Queue<Player> blindQueue;
-    private static Properties prop = new Properties();
+    public static Properties prop = new Properties();
     private static int numberOfPlayers;
 
     public Game()
@@ -32,7 +34,7 @@ public class Game {
     {
         //load settings
         try {
-           prop.load(new FileInputStream("D:\\Uni\\AIpoker\\src\\Core\\Game\\game.properties"));
+           prop.load(new FileInputStream("D:\\Uni\\AIpoker\\src\\Core\\BaseLogic\\game.properties"));
            numberOfPlayers =  Integer.parseInt(prop.getProperty("game.players"));
         } catch (IOException ex) {
             ex.printStackTrace();
@@ -78,10 +80,10 @@ public class Game {
         blindQueue.retainAll(getPlayers());
     }
 
-    public static void main(String args[])
+    public static void run()
     {
-        GameState gs = new GameState();
         new Game();
+        GameState gs = new GameState();
 
         Player winner = new Player();
 

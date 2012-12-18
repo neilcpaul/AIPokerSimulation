@@ -1,9 +1,9 @@
-package Core.Game;
+package Core.BaseLogic;
 
 import Enums.Cards;
 import Enums.HandRank;
 import Enums.Suit;
-import Core.Card;
+import Core.CardImp.Card;
 import sun.security.util.Debug;
 
 /**

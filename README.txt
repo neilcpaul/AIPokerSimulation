@@ -15,11 +15,12 @@ Features:
 
 TODO:
 1. Implement AI for several types of player
-2. User controls for a playable experience
-3. LAN capabilities
+2. GUI design work
+3. User controls for a playable experience
+4. LAN capabilities
 
 Usage:
-1. Game.java drives the main application over 100 rounds (set in main method)
+1. Poker.java drives the main application a maximum of 100 rounds (set in Core/Game main method)
 2. Testing package contains individual hand testing for win checks
 3. Testing package contains game hand simulation for 6 players over (x) games
 

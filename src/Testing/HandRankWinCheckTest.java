@@ -3,8 +3,8 @@ package Testing;
 import Enums.Cards;
 import Enums.HandRank;
 import Enums.Suit;
-import Core.Card;
-import Core.Deck;
+import Core.CardImp.Card;
+import Core.CardImp.Deck;
 import Factories.HandRankWinCheckFactory;
 import Utils.MapUtil;
 

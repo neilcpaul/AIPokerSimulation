@@ -1,11 +1,10 @@
-package Core.Game;
+package Core.BaseLogic;
 
-import Core.Card;
-import Core.Deck;
+import Core.CardImp.Card;
+import Core.CardImp.Deck;
 import Core.Player.Player;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.Map;
 import java.util.Queue;
 

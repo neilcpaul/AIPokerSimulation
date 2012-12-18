@@ -1,7 +1,7 @@
-package Core.Game;
+package Core.BaseLogic;
 
 import Core.Player.Player;
-import Core.Card;
+import Core.CardImp.Card;
 import Utils.MapUtil;
 
 import java.util.*;

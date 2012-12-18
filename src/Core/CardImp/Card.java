@@ -1,4 +1,4 @@
-package Core;
+package Core.CardImp;
 
 import Enums.Cards;
 import Enums.Suit;

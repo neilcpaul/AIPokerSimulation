@@ -1,4 +1,4 @@
-package Core;
+package Core.CardImp;
 
 import java.util.ArrayList;
 import java.util.Random;

@@ -1,4 +1,6 @@
-package Core.Game;
+package Core.BaseLogic;
+
+import Core.Game;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -20,20 +22,12 @@ public class GameState {
 
     private final long startTime;
 
-    private Properties prop = new Properties();
-
     public GameState() {
         this.startTime = System.currentTimeMillis();
         roundCount = 0;
 
-        try {
-            prop.load(new FileInputStream("D:\\Uni\\AIpoker\\src\\Core\\Game\\game.properties"));
-
-            this.initSmallBlind = Integer.parseInt(this.prop.getProperty("initial.blind"));
-            this.blindRaiseTime = Integer.parseInt(this.prop.getProperty("game.blindRaise"));
-        } catch (IOException ex) {
-            ex.printStackTrace();
-        }
+            this.initSmallBlind = Integer.parseInt(Game.prop.getProperty("initial.blind"));
+            this.blindRaiseTime = Integer.parseInt(Game.prop.getProperty("game.blindRaise"));
     }
 
     public static int getRoundCount() {

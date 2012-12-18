@@ -1,9 +1,10 @@
 package Core.Player;
 
+import Core.Game;
 import Factories.HandRankWinCheckFactory;
-import Core.Card;
-import Core.Game.GameState;
-import Core.Game.HandScore;
+import Core.CardImp.Card;
+import Core.BaseLogic.GameState;
+import Core.BaseLogic.HandScore;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -22,7 +23,6 @@ public class Player {
     private int playerNumber;
     private int remainingCash;
     private ArrayList<Card> hand;
-    private Properties prop = new Properties();
     private PlayerState state;
 
     public Player(){};
@@ -45,12 +45,7 @@ public class Player {
 
     public void setInitialCash()
     {
-        try {
-            this.prop.load(new FileInputStream("D:\\Uni\\AIpoker\\src\\Core\\Game\\game.properties"));
-            this.remainingCash =  Integer.parseInt(this.prop.getProperty("initial.cash"));
-        } catch (IOException ex) {
-            ex.printStackTrace();
-        }
+        this.remainingCash =  Integer.parseInt(Game.prop.getProperty("initial.cash"));
     }
 
     public String getPlayerName() {
