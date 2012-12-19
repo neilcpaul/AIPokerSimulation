@@ -2,27 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefd4328-2b8b-4d92-af6a-832eac4d8c86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/Game.java" />
-      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\Card.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\Deck.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\Game\BettingRound.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\Game\CheckWin.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\Game\GameState.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\Game\HandScore.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\Game\Round.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\Game\game.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Game.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/BaseLogic/BettingRound.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/BaseLogic/CheckWin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/BaseLogic/GameState.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/BaseLogic/HandScore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/BaseLogic/Round.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/BaseLogic/game.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/CardImp/Card.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/CardImp/Deck.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Player.java" afterPath="$PROJECT_DIR$/src/Core/Player/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/CollusionPlayer.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/CollusionPlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/EmotionPlayer.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/EmotionPlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/PercentagePlayer.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/PercentagePlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/RecklessPlayer.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/RecklessPlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Factories/HandRankWinCheckFactory.java" afterPath="$PROJECT_DIR$/src/Factories/HandRankWinCheckFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Poker.java" afterPath="$PROJECT_DIR$/src/Poker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Testing/HandRankWinCheckTest.java" afterPath="$PROJECT_DIR$/src/Testing/HandRankWinCheckTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Testing/RoundTest.java" afterPath="$PROJECT_DIR$/src/Testing/RoundTest.java" />
     </list>
     <ignored path="AIpoker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,10 +112,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HandRankWinCheckTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HandRankWinCheckTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Testing/HandRankWinCheckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="12" selection-start="9269" selection-end="9269" vertical-scroll-proportion="0.33259913">
+            <state line="183" column="12" selection-start="9269" selection-end="9269" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
@@ -182,7 +179,12 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Neil Paul" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -351,7 +353,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -586,6 +588,11 @@
       <created>1355489878268</created>
       <updated>1355489878268</updated>
     </task>
+    <task id="LOCAL-00001" summary="Properties file relative path, various warning fixes">
+      <created>1355876659547</created>
+      <updated>1355876659547</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -612,7 +619,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -620,13 +627,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3170391" sideWeight="0.5006443" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282123" sideWeight="0.4974227" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282123" sideWeight="0.4974227" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Metrics" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282123" sideWeight="0.4974227" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19523196" sideWeight="0.67178774" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19523196" sideWeight="0.6703911" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38687152" sideWeight="0.49484536" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -640,7 +647,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
       <value>
@@ -672,7 +679,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Properties file relative path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Properties file relative path, various warning fixes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -686,6 +693,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Properties file relative path" />
+    <MESSAGE value="Properties file relative path, various warning fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -779,7 +787,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Testing/HandRankWinCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="12" selection-start="9269" selection-end="9269" vertical-scroll-proportion="0.33259913">
+        <state line="183" column="12" selection-start="9269" selection-end="9269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
