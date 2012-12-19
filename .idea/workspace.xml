@@ -2,11 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefd4328-2b8b-4d92-af6a-832eac4d8c86" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\BaseLogic\BettingRound.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\BaseLogic\CheckWin.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\BaseLogic\GameState.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\BaseLogic\HandScore.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\BaseLogic\Round.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\BaseLogic\game.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Game.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\GUI\PokerMainMenu$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\GUI\PokerMainMenu$2.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\GUI\PokerMainMenu$3.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\GUI\PokerMainMenu$4.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\GUI\PokerMainMenu$5.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\GUI\PokerMainMenu$6.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\GUI\PokerMainMenu.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\BaseLogic\BettingRound.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\BaseLogic\CheckWin.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\BaseLogic\GameState.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\BaseLogic\HandScore.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\BaseLogic\Round.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\BaseLogic\game.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\Core\Game.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\FrontEnd\PokerMainMenu.form" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\FrontEnd\PokerMainMenu.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\GUI\PokerMainMenu.form" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\GUI\PokerMainMenu.java" afterPath="" />
       <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\GUI\PokerMenu.form" afterPath="" />
       <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\GUI\PokerMenu.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Player$PlayerAction.class" afterPath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Player$PlayerAction.class" />
+      <change type="MODIFICATION" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Player.class" afterPath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Player.class" />
+      <change type="MODIFICATION" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Types\CollusionPlayer.class" afterPath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Types\CollusionPlayer.class" />
+      <change type="MODIFICATION" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Types\DrawNPC.class" afterPath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Types\DrawNPC.class" />
+      <change type="MODIFICATION" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Types\EmotionPlayer.class" afterPath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Types\EmotionPlayer.class" />
+      <change type="MODIFICATION" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Types\PercentagePlayer.class" afterPath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Types\PercentagePlayer.class" />
+      <change type="MODIFICATION" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Types\RecklessPlayer.class" afterPath="D:\git\AIPokerSimulation\out\production\AIpoker\Core\Player\Types\RecklessPlayer.class" />
+      <change type="MODIFICATION" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Factories\HandRankWinCheckFactory.class" afterPath="D:\git\AIPokerSimulation\out\production\AIpoker\Factories\HandRankWinCheckFactory.class" />
+      <change type="MODIFICATION" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Poker.class" afterPath="D:\git\AIPokerSimulation\out\production\AIpoker\Poker.class" />
+      <change type="MODIFICATION" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Testing\CheckWinDrawTest.class" afterPath="D:\git\AIPokerSimulation\out\production\AIpoker\Testing\CheckWinDrawTest.class" />
+      <change type="MODIFICATION" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Testing\HandRankWinCheckTest.class" afterPath="D:\git\AIPokerSimulation\out\production\AIpoker\Testing\HandRankWinCheckTest.class" />
+      <change type="MODIFICATION" beforePath="D:\git\AIPokerSimulation\out\production\AIpoker\Testing\RoundTest.class" afterPath="D:\git\AIPokerSimulation\out\production\AIpoker\Testing\RoundTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AIpoker.iml" afterPath="$PROJECT_DIR$/AIpoker.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Player.java" afterPath="$PROJECT_DIR$/src/Core/Player/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/CollusionPlayer.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/CollusionPlayer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/DrawNPC.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/DrawNPC.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI/PokerMainMenu.form" afterPath="$PROJECT_DIR$/src/GUI/PokerMainMenu.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GUI/PokerMainMenu.java" afterPath="$PROJECT_DIR$/src/GUI/PokerMainMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/EmotionPlayer.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/EmotionPlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/PercentagePlayer.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/PercentagePlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/RecklessPlayer.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/RecklessPlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Factories/HandRankWinCheckFactory.java" afterPath="$PROJECT_DIR$/src/Factories/HandRankWinCheckFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Poker.java" afterPath="$PROJECT_DIR$/src/Poker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Testing/CheckWinDrawTest.java" afterPath="$PROJECT_DIR$/src/Testing/CheckWinDrawTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Testing/RoundTest.java" afterPath="$PROJECT_DIR$/src/Testing/RoundTest.java" />
+      <change type="MOVED" beforePath="D:\git\AIPokerSimulation\src\Core\BaseLogic\BettingRound.java" afterPath="$PROJECT_DIR$/src/Core/Game/BettingRound.java" />
+      <change type="MOVED" beforePath="D:\git\AIPokerSimulation\src\Core\BaseLogic\CheckWin.java" afterPath="$PROJECT_DIR$/src/Core/Game/CheckWin.java" />
+      <change type="MOVED" beforePath="D:\git\AIPokerSimulation\src\Core\BaseLogic\GameState.java" afterPath="$PROJECT_DIR$/src/Core/Game/GameState.java" />
+      <change type="MOVED" beforePath="D:\git\AIPokerSimulation\src\Core\BaseLogic\HandScore.java" afterPath="$PROJECT_DIR$/src/Core/Game/HandScore.java" />
+      <change type="MOVED" beforePath="D:\git\AIPokerSimulation\src\Core\BaseLogic\Round.java" afterPath="$PROJECT_DIR$/src/Core/Game/Round.java" />
+      <change type="MOVED" beforePath="D:\git\AIPokerSimulation\src\Core\BaseLogic\game.properties" afterPath="$PROJECT_DIR$/src/Core/Game/game.properties" />
+      <change type="MOVED" beforePath="D:\git\AIPokerSimulation\src\Core\Game.java" afterPath="$PROJECT_DIR$/src/Core/Session.java" />
     </list>
     <ignored path="AIpoker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,8 +127,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -81,48 +137,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.txt">
+      <file leaf-file-name="GameLoader.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FrontEnd/GameLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PokerMainMenu.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GUI/PokerMainMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="57" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1355918654092" expanded="false" signature="2251:2487" placeholder="/**...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DrawNPC.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Core/Player/Types/DrawNPC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.04934688">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PokerMainMenu.form" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GUI/PokerMainMenu.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Poker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Poker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="27" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+            <state line="39" column="38" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.7941176">
               <folding />
             </state>
           </provider>
@@ -146,10 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Core/BaseLogic/Round.java" />
-        <option value="$PROJECT_DIR$/src/Core/Player/Types/EmotionPlayer.java" />
-        <option value="$PROJECT_DIR$/src/Core/Player/Types/CollusionPlayer.java" />
-        <option value="$PROJECT_DIR$/src/Core/Player/Types/PercentagePlayer.java" />
         <option value="$PROJECT_DIR$/src/Core/Player/Types/RecklessPlayer.java" />
         <option value="$PROJECT_DIR$/src/Core/Game.java" />
         <option value="$PROJECT_DIR$/src/Enums/Cards.java" />
@@ -157,11 +171,15 @@
         <option value="$PROJECT_DIR$/src/Testing/CheckWinDrawTest.java" />
         <option value="$PROJECT_DIR$/src/Core/Player/Player.java" />
         <option value="$PROJECT_DIR$/src/Core/BaseLogic/game.properties" />
-        <option value="$PROJECT_DIR$/src/Poker.java" />
-        <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/src/GUI/PokerMainMenu.form" />
         <option value="$PROJECT_DIR$/src/GUI/PokerMainMenu.java" />
         <option value="$PROJECT_DIR$/src/Core/Player/Types/DrawNPC.java" />
+        <option value="$PROJECT_DIR$/src/Poker.java" />
+        <option value="$PROJECT_DIR$/src/Core/Session.java" />
+        <option value="$PROJECT_DIR$/src/Core/Game/CheckWin.java" />
+        <option value="$PROJECT_DIR$/src/FrontEnd/GameLoader.form" />
+        <option value="$PROJECT_DIR$/README.txt" />
+        <option value="$PROJECT_DIR$/src/FrontEnd/GameLoader.java" />
       </list>
     </option>
   </component>
@@ -197,6 +215,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,6 +232,10 @@
               <option name="myItemId" value="AIpoker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -243,12 +275,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GUI" />
+              <option name="myItemId" value="FrontEnd" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PokerMainMenu" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -317,14 +345,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AIpoker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AIPokerSimulation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -349,21 +389,24 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="project.propGUI" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\AIPokerSimulation\src\FrontEnd" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Uni\AIpoker\src\Game\Game" />
     </key>
@@ -436,8 +479,8 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="PokerMainMenu" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="GUI.PokerMainMenu" />
+    <configuration default="false" name="GameLoader" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="FrontEnd.GameLoader" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -503,24 +546,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -546,6 +571,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -601,7 +644,7 @@
       <item index="0" class="java.lang.String" itemvalue="Application.Poker" />
       <item index="1" class="java.lang.String" itemvalue="Application.HandRankWinCheckTest" />
       <item index="2" class="java.lang.String" itemvalue="Application.RoundTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.PokerMainMenu" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GameLoader" />
       <item index="4" class="java.lang.String" itemvalue="Application.CheckWinDrawTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -676,12 +719,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20811856" sideWeight="0.8812849" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30025774" sideWeight="0.8631285" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925257" sideWeight="0.8812849" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21585052" sideWeight="0.8631285" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.80307263" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.8617318" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3170391" sideWeight="0.5006443" order="1" side_tool="true" content_ui="tabs" />
@@ -693,11 +737,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19394329" sideWeight="0.13547486" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.86452514" sideWeight="0.49484536" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19329897" sideWeight="0.8631285" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1368715" sideWeight="0.49484536" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.80307263" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
@@ -775,7 +818,7 @@
         <state line="9" column="12" selection-start="179" selection-end="179" vertical-scroll-proportion="-0.22206096" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Core/BaseLogic/HandScore.java">
+    <entry file="file://$PROJECT_DIR$/src/Core/Game/HandScore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="95" column="18" selection-start="2317" selection-end="2317" vertical-scroll-proportion="0.0" />
       </provider>
@@ -790,24 +833,14 @@
         <state line="11" column="35" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Core/BaseLogic/CheckWin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="48" selection-start="3456" selection-end="3456" vertical-scroll-proportion="-2.76" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Testing/CheckWinDrawTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="27" selection-start="534" selection-end="534" vertical-scroll-proportion="-2.08" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Core/BaseLogic/Round.java">
+    <entry file="file://$PROJECT_DIR$/src/Core/Game/Round.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="49" selection-start="2085" selection-end="2085" vertical-scroll-proportion="0.3149492" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Core/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="37" selection-start="3414" selection-end="3414" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Core/Player/Player.java">
@@ -815,43 +848,57 @@
         <state line="119" column="19" selection-start="2711" selection-end="2711" vertical-scroll-proportion="0.33236575" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Core/BaseLogic/game.properties">
+    <entry file="file://$PROJECT_DIR$/src/Core/Game/game.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="17" selection-start="157" selection-end="157" vertical-scroll-proportion="0.19738752" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Poker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+        <state line="15" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/PokerMainMenu.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/PokerMainMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="57" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1355918654092" expanded="false" signature="2251:2487" placeholder="/**...*/" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Core/Player/Types/DrawNPC.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.04934688">
+        <state line="13" column="13" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Game/CheckWin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="14" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.9375907">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Core/Session.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="30" selection-start="775" selection-end="775" vertical-scroll-proportion="0.17271408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontEnd/GameLoader.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="51" selection-start="848" selection-end="848" vertical-scroll-proportion="0.4890017">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontEnd/GameLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="38" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.7941176">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -861,6 +908,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>intellijForm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -884,6 +932,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>forms_rt</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -912,7 +961,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,8 +1,8 @@
 package Testing;
 
-import Core.Game;
-import Core.BaseLogic.GameState;
-import Core.BaseLogic.Round;
+import Core.Session;
+import Core.Game.GameState;
+import Core.Game.Round;
 import Enums.HandRank;
 import Utils.MapUtil;
 
@@ -25,7 +25,7 @@ public class RoundTest {
 
     public static void gameFrequencyTest(int roundsToPlay)
     {
-        //new Game.initGame();
+        //new Session.initGame();
         GameState gs = new GameState();
 
         long cumulativeRoundTime = 0;
@@ -36,9 +36,9 @@ public class RoundTest {
 
         while(roundsToPlay > 0)
         {
-            Round r = new Round(Game.getPlayers(), gs.calculateBlinds());
+            Round r = new Round(Session.getPlayers(), gs.calculateBlinds());
             r.playRound();
-            Game.updatePlayers(r.getCurrentPlayers());
+            Session.updatePlayers(r.getCurrentPlayers());
 
             int lastFrequency = rankingFrequencyMap.get(r.getRoundWinner().getValue().getHandRank());
             rankingFrequencyMap.remove(r.getRoundWinner().getValue().getHandRank());

@@ -1,7 +1,7 @@
 package Testing;
 
-import Core.BaseLogic.CheckWin;
-import Core.BaseLogic.HandScore;
+import Core.Game.CheckWin;
+import Core.Game.HandScore;
 import Core.CardImp.Card;
 import Core.Player.Player;
 import Enums.Cards;

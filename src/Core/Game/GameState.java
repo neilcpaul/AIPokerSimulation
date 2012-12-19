@@ -1,10 +1,6 @@
-package Core.BaseLogic;
+package Core.Game;
 
-import Core.Game;
-
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Properties;
+import Core.Session;
 
 /**
  * Created with IntelliJ IDEA.
@@ -26,8 +22,8 @@ public class GameState {
         this.startTime = System.currentTimeMillis();
         roundCount = 0;
 
-            this.initSmallBlind = Integer.parseInt(Game.prop.getProperty("initial.blind"));
-            this.blindRaiseTime = Integer.parseInt(Game.prop.getProperty("game.blindRaise"));
+            this.initSmallBlind = Integer.parseInt(Session.prop.getProperty("initial.blind"));
+            this.blindRaiseTime = Integer.parseInt(Session.prop.getProperty("game.blindRaise"));
     }
 
     public static int getRoundCount() {

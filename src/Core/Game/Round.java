@@ -1,4 +1,4 @@
-package Core.BaseLogic;
+package Core.Game;
 
 import Core.CardImp.Card;
 import Core.CardImp.Deck;

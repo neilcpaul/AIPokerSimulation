@@ -1,5 +1,4 @@
-import Core.Game;
-import GUI.PokerMainMenu;
+import FrontEnd.GameLoader;
 
 /**
  * Created with IntelliJ IDEA.
@@ -11,6 +10,6 @@ import GUI.PokerMainMenu;
 public class Poker {
     public static void main(String args[])
     {
-        PokerMainMenu.initFrontEnd();
+        GameLoader.initFrontEnd();
     }
 }

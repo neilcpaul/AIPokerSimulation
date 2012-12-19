@@ -1,4 +1,4 @@
-package Core.BaseLogic;
+package Core.Game;
 
 import Core.Player.Player;
 import Core.Player.PlayerState;

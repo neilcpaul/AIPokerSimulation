@@ -1,4 +1,4 @@
-package Core.BaseLogic;
+package Core.Game;
 
 import Core.Player.Player;
 import Core.CardImp.Card;
@@ -41,11 +41,6 @@ public class CheckWin {
         for (Player nextPlayer : players) {
             playerScores.put(nextPlayer, nextPlayer.calculateHandScore(tableCards));
         }
-    }
-
-    private HashMap<Player, HandScore> sortScoresToHashMap(Map<Player, HandScore> scores)
-    {
-        return new HashMap<Player, HandScore>(MapUtil.sortByValue(scores));
     }
 
     public Map.Entry<Player, HandScore> checkWin()
@@ -116,7 +111,7 @@ public class CheckWin {
         if (actualDrawPlayers.size()>1)
         {
             DrawNPC drawNPC = new DrawNPC();
-            drawNPC.addDrawPlayer(new ArrayList(actualDrawPlayers.keySet()));
+            drawNPC.addDrawPlayer(new ArrayList<Player>(actualDrawPlayers.keySet()));
             return new AbstractMap.SimpleEntry<Player, HandScore>(drawNPC,roundWinHand);
         }
         return new AbstractMap.SimpleEntry<Player, HandScore>(roundWinPlayer,roundWinHand);

@@ -1,4 +1,4 @@
-package Core.BaseLogic;
+package Core.Game;
 
 import Enums.Cards;
 import Enums.HandRank;

@@ -1,7 +1,7 @@
 package Core;
 
-import Core.BaseLogic.GameState;
-import Core.BaseLogic.Round;
+import Core.Game.GameState;
+import Core.Game.Round;
 import Core.Player.*;
 import Core.Player.Types.CollusionPlayer;
 import Core.Player.Types.EmotionPlayer;
@@ -19,14 +19,14 @@ import java.util.*;
  * Time: 19:57
  * To change this template use File | Settings | File Templates.
  */
-public class Game {
+public class Session {
     private static ArrayList<Player> players;
     private static Queue<Player> blindQueue;
     public static volatile Properties prop;
     private static int numberOfPlayers;
     private static int roundLimit;
 
-    public Game()
+    public Session()
     {
         initGame();
     }
@@ -90,7 +90,7 @@ public class Game {
 
     public static void run()
     {
-        new Game();
+        new Session();
         GameState gs = new GameState();
 
         Player winner = new Player();

@@ -4,7 +4,7 @@ import Enums.Cards;
 import Enums.Suit;
 import Core.CardImp.Card;
 import Enums.HandRank;
-import Core.BaseLogic.HandScore;
+import Core.Game.HandScore;
 
 import java.util.*;
 

@@ -18,6 +18,7 @@ Features:
 13. Highly refined win check
 14. GUI has validation and is stable
 15. GUI writes settings to properties file for persists between sessions
+15. GUI Jar is included so IntelliJ is not required
 
 TODO:
 1. Implement AI for several types of player

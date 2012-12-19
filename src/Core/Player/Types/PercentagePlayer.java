@@ -1,6 +1,5 @@
 package Core.Player.Types;
 
-import Core.BaseLogic.GameState;
 import Core.Player.Player;
 import Core.Player.PlayerState;
 
