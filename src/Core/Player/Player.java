@@ -20,18 +20,22 @@ import java.util.Properties;
  */
 public class Player {
     private String playerName;
-    private int playerNumber;
     private int remainingCash;
     private ArrayList<Card> hand;
     private PlayerState state;
 
     public Player(){};
 
-    public Player(String playerName, int playerNumber) {
+    public Player(String playerName) {
         this.playerName = playerName;
-        this.playerNumber = playerNumber;
         this.hand = new ArrayList<Card>();
         this.setInitialCash();
+    }
+
+    public Player(String playerName, int cash) {
+        this.playerName = playerName;
+        this.hand = new ArrayList<Card>();
+        this.remainingCash = cash;
     }
 
     public int processTurn()
@@ -84,6 +88,11 @@ public class Player {
         this.hand.clear();
     }
 
+    public boolean isSplitPot()
+    {
+        return false;
+    }
+
     public PlayerState getState() {
         return state;
     }
@@ -103,18 +112,16 @@ public class Player {
     @Override
     public String toString()
     {
-        String temp = "Player Name: " + playerName
+        return "Player Name: " + playerName
                 + "\nCash: " + getRemainingCash()
                 + "\n" + hand.toString();
-        return temp;
     }
 
     public String toWinnerString()
     {
-        String temp = "Winning player: \n"
+        return "--Game Summary--\nWinning player: \n"
                 + "Player Name: " + playerName
                 + "\nCash: " + getRemainingCash();
-        return temp;
     }
 
     public String toCanonicalString()

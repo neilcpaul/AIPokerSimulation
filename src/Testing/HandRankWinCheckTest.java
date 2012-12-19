@@ -137,17 +137,16 @@ public class HandRankWinCheckTest {
         h10.add(new Card(Suit.HEARTS.getSuitID(), Cards.ACE.getCardRank()));
         h10.add(new Card(Suit.SPADES.getSuitID(), Cards.KING.getCardRank()));
 
-        HandRankWinCheckFactory scoreFactory = new HandRankWinCheckFactory();
-        System.out.println(scoreFactory.scoreHand(h1).toString());
-        System.out.println(scoreFactory.scoreHand(h2).toString());
-        System.out.println(scoreFactory.scoreHand(h3).toString());
-        System.out.println(scoreFactory.scoreHand(h4).toString());
-        System.out.println(scoreFactory.scoreHand(h5).toString());
-        System.out.println(scoreFactory.scoreHand(h6).toString());
-        System.out.println(scoreFactory.scoreHand(h7).toString());
-        System.out.println(scoreFactory.scoreHand(h8).toString());
-        System.out.println(scoreFactory.scoreHand(h9).toString());
-        System.out.println(scoreFactory.scoreHand(h10).toString());
+        System.out.println(HandRankWinCheckFactory.scoreHand(h1).toString());
+        System.out.println(HandRankWinCheckFactory.scoreHand(h2).toString());
+        System.out.println(HandRankWinCheckFactory.scoreHand(h3).toString());
+        System.out.println(HandRankWinCheckFactory.scoreHand(h4).toString());
+        System.out.println(HandRankWinCheckFactory.scoreHand(h5).toString());
+        System.out.println(HandRankWinCheckFactory.scoreHand(h6).toString());
+        System.out.println(HandRankWinCheckFactory.scoreHand(h7).toString());
+        System.out.println(HandRankWinCheckFactory.scoreHand(h8).toString());
+        System.out.println(HandRankWinCheckFactory.scoreHand(h9).toString());
+        System.out.println(HandRankWinCheckFactory.scoreHand(h10).toString());
     }
 
     public static void randomTests(int numberOfTests, int handSize)

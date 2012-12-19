@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cefd4328-2b8b-4d92-af6a-832eac4d8c86" name="Default" comment="Adding more files via intelliJ">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Core/Player/Types/DrawNPC.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GUI/PokerMainMenu.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GUI/PokerMainMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GUI/PokerMenu.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GUI/PokerMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Testing/CheckWinDrawTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+    <list default="true" id="cefd4328-2b8b-4d92-af6a-832eac4d8c86" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\GUI\PokerMenu.form" afterPath="" />
+      <change type="DELETED" beforePath="D:\git\AIPokerSimulation\src\GUI\PokerMenu.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/BaseLogic/CheckWin.java" afterPath="$PROJECT_DIR$/src/Core/BaseLogic/CheckWin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/BaseLogic/Round.java" afterPath="$PROJECT_DIR$/src/Core/BaseLogic/Round.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/BaseLogic/game.properties" afterPath="$PROJECT_DIR$/src/Core/BaseLogic/game.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/CardImp/Card.java" afterPath="$PROJECT_DIR$/src/Core/CardImp/Card.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Game.java" afterPath="$PROJECT_DIR$/src/Core/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Player.java" afterPath="$PROJECT_DIR$/src/Core/Player/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/CollusionPlayer.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/CollusionPlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/EmotionPlayer.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/EmotionPlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/PercentagePlayer.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/PercentagePlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Core/Player/Types/RecklessPlayer.java" afterPath="$PROJECT_DIR$/src/Core/Player/Types/RecklessPlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Poker.java" afterPath="$PROJECT_DIR$/src/Poker.java" />
     </list>
     <ignored path="AIpoker.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,7 +82,7 @@
       <file leaf-file-name="README.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="111" selection-end="111" vertical-scroll-proportion="0.09869376">
+            <state line="4" column="19" selection-start="111" selection-end="111" vertical-scroll-proportion="0.15011038">
               <folding />
             </state>
           </provider>
@@ -531,7 +514,11 @@
       <created>1355876969236</created>
       <updated>1355876969236</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GUI Settings menu and concept of 'draw'/split pot">
+      <created>1355912195196</created>
+      <updated>1355912195196</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -559,7 +546,7 @@
     <editor active="false" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20811856" sideWeight="0.8812849" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925257" sideWeight="0.8812849" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.80307263" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -574,7 +561,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19523196" sideWeight="0.13547486" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19523196" sideWeight="0.6703911" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.86452514" sideWeight="0.49484536" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -619,7 +606,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding more files via intelliJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI Settings menu and concept of 'draw'/split pot" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -635,6 +622,7 @@
     <MESSAGE value="Properties file relative path" />
     <MESSAGE value="Properties file relative path, various warning fixes" />
     <MESSAGE value="Adding more files via intelliJ" />
+    <MESSAGE value="GUI Settings menu and concept of 'draw'/split pot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -764,7 +752,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="111" selection-end="111" vertical-scroll-proportion="0.09869376">
+        <state line="4" column="19" selection-start="111" selection-end="111" vertical-scroll-proportion="0.15011038">
           <folding />
         </state>
       </provider>

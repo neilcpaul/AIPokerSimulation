@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.PokerMainMenu">
+  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="285" y="47" width="489" height="415"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="9c42b" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="2477b" class="javax.swing.JLabel" binding="AppTitle">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="AIPoker (v010907/Neil Paul)"/>
+            </properties>
+          </component>
+          <hspacer id="583e8">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <tabbedpane id="b810d" binding="tabbedPane1" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="200"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="95b1c" layout-manager="GridLayoutManager" row-count="11" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Play"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="c3b97" class="javax.swing.JButton" binding="btnStartGame">
+                    <constraints>
+                      <grid row="10" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Start Game"/>
+                      <toolTipText value="Starts a game with the above settings"/>
+                    </properties>
+                  </component>
+                  <vspacer id="9a65e">
+                    <constraints>
+                      <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                  </vspacer>
+                  <component id="6f032" class="javax.swing.JLabel" binding="lblInstructions">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Please enter the following settings and press 'Start Game'"/>
+                    </properties>
+                  </component>
+                  <component id="cdaa2" class="javax.swing.JLabel" binding="lblPlayer1">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="14"/>
+                      <labelFor value="6f8e"/>
+                      <text value="Player 1"/>
+                    </properties>
+                  </component>
+                  <component id="288a7" class="javax.swing.JLabel" binding="lblPlayer2">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="14"/>
+                      <labelFor value="750b4"/>
+                      <text value="Player 2"/>
+                    </properties>
+                  </component>
+                  <component id="83211" class="javax.swing.JLabel" binding="lblPlayer3">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="14"/>
+                      <labelFor value="9e909"/>
+                      <text value="Player 3"/>
+                    </properties>
+                  </component>
+                  <component id="c24c" class="javax.swing.JLabel" binding="lblPlayer4">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="14"/>
+                      <labelFor value="b6508"/>
+                      <text value="Player 4"/>
+                    </properties>
+                  </component>
+                  <component id="f8058" class="javax.swing.JLabel" binding="lblPlayer5">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="14"/>
+                      <labelFor value="512ba"/>
+                      <text value="Player 5"/>
+                    </properties>
+                  </component>
+                  <component id="3f903" class="javax.swing.JLabel" binding="lblPlayer6">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="14"/>
+                      <labelFor value="e889b"/>
+                      <text value="Player 6"/>
+                    </properties>
+                  </component>
+                  <component id="e26bb" class="javax.swing.JCheckBox" binding="chbPlayer1Human">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <selected value="true"/>
+                      <text value="Human?"/>
+                    </properties>
+                  </component>
+                  <component id="202a0" class="javax.swing.JCheckBox" binding="chbPlayer2Human">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <actionCommand value="Human?"/>
+                      <selected value="false"/>
+                      <text value="Human?"/>
+                    </properties>
+                  </component>
+                  <component id="c746f" class="javax.swing.JCheckBox" binding="chbPlayer3Enabled">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <selected value="true"/>
+                      <text value="Enabled?"/>
+                    </properties>
+                  </component>
+                  <component id="3fa94" class="javax.swing.JCheckBox" binding="chbPlayer4Enabled">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <selected value="true"/>
+                      <text value="Enabled?"/>
+                    </properties>
+                  </component>
+                  <component id="c945b" class="javax.swing.JCheckBox" binding="chbPlayer5Enabled">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <selected value="true"/>
+                      <text value="Enabled?"/>
+                    </properties>
+                  </component>
+                  <component id="63028" class="javax.swing.JCheckBox" binding="chbPlayer6Enabled">
+                    <constraints>
+                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <selected value="true"/>
+                      <text value="Enabled?"/>
+                    </properties>
+                  </component>
+                  <component id="c4201" class="javax.swing.JTextField" binding="txtPlayer1Name">
+                    <constraints>
+                      <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Player 1"/>
+                      <toolTipText value="Enter player name here"/>
+                    </properties>
+                  </component>
+                  <component id="f39c9" class="javax.swing.JTextField" binding="txtPlayer2Name">
+                    <constraints>
+                      <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Player 2"/>
+                      <toolTipText value="Enter player name here"/>
+                    </properties>
+                  </component>
+                  <component id="ce076" class="javax.swing.JTextField" binding="txtPlayer3Name">
+                    <constraints>
+                      <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Player 3"/>
+                      <toolTipText value="Enter player name here"/>
+                    </properties>
+                  </component>
+                  <component id="b228d" class="javax.swing.JTextField" binding="txtPlayer4Name">
+                    <constraints>
+                      <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Player 4"/>
+                      <toolTipText value="Enter player name here"/>
+                    </properties>
+                  </component>
+                  <component id="e7b83" class="javax.swing.JTextField" binding="txtPlayer5Name">
+                    <constraints>
+                      <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Player 5"/>
+                      <toolTipText value="Enter player name here"/>
+                    </properties>
+                  </component>
+                  <component id="7a01f" class="javax.swing.JTextField" binding="txtPlayer6Name">
+                    <constraints>
+                      <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <text value="Player 6"/>
+                      <toolTipText value="Enter player name here"/>
+                    </properties>
+                  </component>
+                  <component id="3884" class="javax.swing.JLabel" binding="lnlInitialCash">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <text value="Initial Cash"/>
+                      <toolTipText value="Players will start with this amount"/>
+                    </properties>
+                  </component>
+                  <component id="a6236" class="javax.swing.JSlider" binding="sldrInitialCash">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <majorTickSpacing value="100"/>
+                      <maximum value="500"/>
+                      <minimum value="50"/>
+                      <minorTickSpacing value="50"/>
+                      <orientation value="0"/>
+                      <paintLabels value="false"/>
+                      <paintTicks value="false"/>
+                      <paintTrack value="true"/>
+                      <snapToTicks value="true"/>
+                      <value value="150"/>
+                      <valueIsAdjusting value="false"/>
+                    </properties>
+                  </component>
+                  <component id="28e7d" class="javax.swing.JTextField" binding="txtInitialCash">
+                    <constraints>
+                      <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <text value="100"/>
+                    </properties>
+                  </component>
+                  <component id="33e45" class="javax.swing.JLabel" binding="lblRoundLimit">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <labelFor value="c701"/>
+                      <text value="Round Limit"/>
+                      <toolTipText value="Play will end after a number of rounds"/>
+                    </properties>
+                  </component>
+                  <component id="646b6" class="javax.swing.JTextField" binding="txtRoundLimit">
+                    <constraints>
+                      <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <editable value="false"/>
+                      <horizontalAlignment value="2"/>
+                      <text value="0"/>
+                      <toolTipText value="0 for unlimited"/>
+                    </properties>
+                  </component>
+                  <component id="3dd98" class="javax.swing.JSlider" binding="sldrRoundLimit">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <majorTickSpacing value="50"/>
+                      <maximum value="200"/>
+                      <minorTickSpacing value="20"/>
+                      <paintLabels value="false"/>
+                      <paintTicks value="false"/>
+                      <snapToTicks value="true"/>
+                      <value value="0"/>
+                      <valueIsAdjusting value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="40da0" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Network"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="68e14" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints>
+                  <tabbedpane title="Testing"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </tabbedpane>
+          <component id="8c225" class="javax.swing.JSeparator">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

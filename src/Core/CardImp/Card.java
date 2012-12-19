@@ -40,6 +40,15 @@ public class Card implements Comparable{
         return value;
     }
 
+    private String genSpriteString()
+    {
+        String spriteName = String.valueOf(this.getValue().cardName().toLowerCase().toCharArray()[0]);
+        String cardValue = String.valueOf(this.getValue().getCardRank());
+        return spriteName.concat(cardValue);
+    }
+
+    //public
+
     @Override
     public String toString()
     {

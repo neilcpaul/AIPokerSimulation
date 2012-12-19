@@ -12,8 +12,8 @@ import Core.Player.PlayerState;
  * To change this template use File | Settings | File Templates.
  */
 public class PercentagePlayer extends Player {
-    public PercentagePlayer(String playerName, int playerNumber) {
-        super(playerName, playerNumber);
+    public PercentagePlayer(String playerName) {
+        super(playerName);
     }
 
     @Override

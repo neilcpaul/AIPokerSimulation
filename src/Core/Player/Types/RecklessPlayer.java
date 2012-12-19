@@ -15,8 +15,8 @@ public class RecklessPlayer extends Player {
 
     private int aggressiveness = 0;
 
-    public RecklessPlayer(String playerName, int playerNumber) {
-        super(playerName, playerNumber);
+    public RecklessPlayer(String playerName) {
+        super(playerName);
     }
 
     @Override

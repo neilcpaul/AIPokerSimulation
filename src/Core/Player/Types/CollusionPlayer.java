@@ -12,8 +12,8 @@ import Core.Player.PlayerState;
  * To change this template use File | Settings | File Templates.
  */
 public class CollusionPlayer extends Player {
-    public CollusionPlayer(String playerName, int playerNumber) {
-        super(playerName, playerNumber);
+    public CollusionPlayer(String playerName) {
+        super(playerName);
     }
 
     @Override

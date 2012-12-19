@@ -22,8 +22,9 @@ import java.util.*;
 public class Game {
     private static ArrayList<Player> players;
     private static Queue<Player> blindQueue;
-    public static Properties prop = new Properties();
+    public static volatile Properties prop;
     private static int numberOfPlayers;
+    private static int roundLimit;
 
     public Game()
     {
@@ -34,8 +35,10 @@ public class Game {
     {
         //load settings
         try {
-           prop.load(new FileInputStream("D:\\Uni\\AIpoker\\src\\Core\\BaseLogic\\game.properties"));
-           numberOfPlayers =  Integer.parseInt(prop.getProperty("game.players"));
+           prop = new Properties();
+           prop.load(new FileInputStream(System.getProperty("user.dir") + "\\src\\Core\\BaseLogic\\game.properties"));
+            numberOfPlayers =  Integer.parseInt(prop.getProperty("game.players"));
+            roundLimit =  Integer.parseInt(prop.getProperty("round.limit"));
         } catch (IOException ex) {
             ex.printStackTrace();
         }
@@ -49,13 +52,13 @@ public class Game {
             String playerName = prop.get(playerNameRetrieval).toString();
             switch (new Random().nextInt(3))
             {
-                case 0:  players.add(new CollusionPlayer(playerName, playerNumber));
+                case 0:  players.add(new CollusionPlayer(playerName));
                     break;
-                case 1:  players.add(new RecklessPlayer(playerName, playerNumber));
+                case 1:  players.add(new RecklessPlayer(playerName));
                     break;
-                case 2:  players.add(new EmotionPlayer(playerName, playerNumber));
+                case 2:  players.add(new EmotionPlayer(playerName));
                     break;
-                case 3:  players.add(new PercentagePlayer(playerName, playerNumber));
+                case 3:  players.add(new PercentagePlayer(playerName));
                     break;
             }
         }
@@ -80,6 +83,11 @@ public class Game {
         blindQueue.retainAll(getPlayers());
     }
 
+    public static boolean belowRoundLimit()
+    {
+        return roundLimit==0?true:GameState.roundCount < roundLimit;
+    }
+
     public static void run()
     {
         new Game();
@@ -88,19 +96,22 @@ public class Game {
         Player winner = new Player();
 
         boolean continuePlaying = true;
-        int maxRounds = 100;
-        while(continuePlaying && GameState.roundCount < maxRounds)
+        while(continuePlaying && belowRoundLimit())
         {
+            System.out.println("Round " + (GameState.getRoundCount()+1));
             Round r = new Round(players, gs.calculateBlinds());
             r.updateBlindQueue(blindQueue);
             r.playRound();
             updatePlayers(r.getCurrentPlayers());
-            GameState.incrementRoundCount();
+            winner = r.checkWinner();
+
             if (r.isGameOver())
             {
                 continuePlaying = false;
-            }
-            winner = r.checkWinner();
+            } else
+                GameState.incrementRoundCount();
+
+
             updateAndProgressBlindQueue();
         }
 

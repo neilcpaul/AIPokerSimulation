@@ -13,8 +13,8 @@ import Core.Player.PlayerState;
  */
 public class EmotionPlayer extends Player {
 
-    public EmotionPlayer(String playerName, int playerNumber) {
-        super(playerName, playerNumber);
+    public EmotionPlayer(String playerName) {
+        super(playerName);
     }
 
     @Override

@@ -41,11 +41,10 @@ public class RoundTest {
             Game.updatePlayers(r.getCurrentPlayers());
 
             int lastFrequency = rankingFrequencyMap.get(r.getRoundWinner().getValue().getHandRank());
-            rankingFrequencyMap.remove(r.getRoundWinner().getValue());
+            rankingFrequencyMap.remove(r.getRoundWinner().getValue().getHandRank());
             rankingFrequencyMap.put(r.getRoundWinner().getValue().getHandRank(), (lastFrequency+1));
-            //System.out.println(r.toString(1));
             r.gatherPlayerHands();
-            gs.incrementRoundCount();
+            GameState.incrementRoundCount();
             cumulativeRoundTime += r.calcRoundTime();
             roundsToPlay--;
         }

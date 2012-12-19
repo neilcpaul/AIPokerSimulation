@@ -76,6 +76,11 @@ public class Round {
             dealToTable();
     }
 
+    private void settlePot(Map.Entry<Player, HandScore> roundWinner)
+    {
+        roundWinner.getKey().addToCash(pot);
+    }
+
     public ArrayList<Player> getCurrentPlayers()
     {
         ArrayList<Player> eligiblePlayers = new ArrayList<Player>();
@@ -166,12 +171,10 @@ public class Round {
             //Check win
             roundWinner = checkWin();
             this.pot = br.getPot();
-
+            longSummariseRound();
+            settlePot(roundWinner);
         } else this.gameOver = true;
-
-        longSummariseRound();
         gatherPlayerHands();
-        roundWinner.getKey().addToCash(pot);
     }
 
     public String toString()
@@ -186,15 +189,15 @@ public class Round {
 
     private void longSummariseRound()
     {
-        System.out.println("Round Summary: \n");
         for (Player currentPlayer : currentPlayers) {
-            System.out.println(currentPlayer.toCanonicalString());
+            System.out.print(currentPlayer.getPlayerName() + "\t|");
         }
-        System.out.println("\nTable:");
-        System.out.println(tableCards.toString());
+        System.out.print("\n");
+        for (Player currentPlayer : currentPlayers) {
+            System.out.print(currentPlayer.getRemainingCash() + "\t\t|");
+        }
         System.out.println("\nWinner:");
-        System.out.println(roundWinner.getKey().getCanonicalName() + ": " + roundWinner.getValue().toString());
-        System.out.println("Winners pot: " + pot);
-        System.out.println("\nRemaining Deck: " + deck.deckSize());
+        System.out.println(this.toString(1));
+        System.out.println("Pot: " + pot + "\n");
     }
 }
