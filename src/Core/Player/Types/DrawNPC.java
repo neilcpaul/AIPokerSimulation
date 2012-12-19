@@ -1,9 +1,6 @@
 package Core.Player.Types;
 
-import Core.Game;
 import Core.Player.Player;
-import Core.Player.PlayerState;
-import javafx.scene.control.SplitPane;
 
 import java.util.ArrayList;
 
